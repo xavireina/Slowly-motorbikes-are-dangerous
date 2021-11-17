@@ -1,0 +1,57 @@
+html,
+body {
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+canvas#game {
+  margin: 0 auto;
+  border: 1px solid black;
+  background-image:    url(/img/background.jpeg);
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.show {
+  display: block;
+}
+
+.portada {
+  width: 980px;
+  height: 579px;
+  background-image: url('../img/maquina.jpeg');
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 40px;
+  left: 250px;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-size: 40px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid greenyellow;
+  text-transform: uppercase;
+  position: relative;
+  top: 140px;
+  right: 280px;
+  height: 80px;
+  width: 230px;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
