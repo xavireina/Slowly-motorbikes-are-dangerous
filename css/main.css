@@ -11,7 +11,7 @@ body {
 canvas#game {
   margin: 0 auto;
   border: 1px solid black;
-  background-image:    url(/img/background.jpeg);
+  background-image:    url('../img/background.jpeg');
   background-size:     cover;                      
   background-repeat:   no-repeat;
   background-position: center center;
