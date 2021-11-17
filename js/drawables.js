@@ -67,7 +67,7 @@ class ImageDrawableElement extends DrawableElement {
 
 class Scooter extends ImageDrawableElement {
   constructor(canvas, speedX) {
-    super(canvas.getContext('2d'), 60, 60, "https://xavireina.github.io/Slowly-motorbikes-are-dangerous/img/scooter.png", canvas.width / 2 - 30, canvas.height-60)
+    super(canvas.getContext('2d'), 60, 60, "img/scooter.png", canvas.width / 2 - 30, canvas.height-60)
     this.speedX = speedX;
     this.maxWidth = canvas.width;
     this.maxHeight = canvas.height;
@@ -89,7 +89,7 @@ class Scooter extends ImageDrawableElement {
 
 class Peaton extends ImageDrawableElement {
   constructor(canvas, speedY) {
-    super(canvas.getContext('2d'), 35, 35, "../img/cono.png", Math.floor(Math.random()*canvas.width), 0)
+    super(canvas.getContext('2d'), 35, 35, "img/cono.png", Math.floor(Math.random()*canvas.width), 0)
     this.speedY = speedY;
     this.maxWidth = canvas.width;
     this.maxHeight = canvas.height;
